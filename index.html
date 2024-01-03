@@ -20,24 +20,9 @@ function getUrl () {
     </head> 
     <body  style="font-family: arial;     border-radius: 5px; "> 
         <script type="module" src="main.js"></script>
-    <h1><a href="https://www.ni-sp.com/" target="_new" ><image height="60" style="vertical-align: bottom;"
-        src="https://www.ni-sp.com/wp-content/uploads/2019/07/NISP_Logo_RZ.png"></a>
-      <span style="vertical-align: super;" >NICE DCV SDK Demo (<a href="https://www.ni-sp.com/" target="_new" >www.ni-sp.com</a>)</span></h1>
-    <div>
-      NICE DCV is a high-end remote 2D/3D desktop product. Background on <a href="https://www.ni-sp.com/nice-dcv/" target="_new" >NICE DCV</a> and <a href="https://www.ni-sp.com/nice-dcv-tips-and-tricks/" target="_new" >NICE DCV Tips and Tricks</a>.<p>
-      </div>
-
     <div id="URL">Please enter the URL for the DCV server to connect to:
       <input style="background: #89c789; color: #100a0c; border-radius: 6px;" type="text"
 	     onChange="getUrl()" id="urlt"></input> (e.g. https://SERVER:8443) and hit return.</div>
-    <div><p>After entering the URL you will be prompted for username and password in the form below.
-	(We will use the credentials only to login - please check the source code in case or feel free
-	create your own copy).
-      <p/>
-	After clicking "Login" the connection to your DCV server will be established
-	- this will take a few seconds so please be patient. In the meantime you may
-	monitor the javascript console (F12) for some messages.
-    </div>
  
     <h1 id="form2" style="display: none; font-family: arial;">Login to DCV </h1>
         <div id="dcv-display"
